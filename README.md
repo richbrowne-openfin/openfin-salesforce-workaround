@@ -1,2 +1,3 @@
 # openfin-salesforce-demo
-Created with CodeSandbox
+
+![](salesforce-example-of-use.gif)

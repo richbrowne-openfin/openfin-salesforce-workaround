@@ -4,7 +4,7 @@
   "startup_app": {
     "name": "AltSalesForceApp",
     "description": "A Salesforce Supporting Sample App to Listen To and Publish Messages",
-    "url": "https://bsdo3.csb.app/otherapp.html",
+    "url": "https://z6495.csb.app/otherapp.html",
     "uuid": "AltAppSalesForce",
     "autoShow": true,
     "defaultHeight": 950,
