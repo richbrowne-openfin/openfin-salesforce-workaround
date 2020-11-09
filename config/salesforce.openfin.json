@@ -1,0 +1,33 @@
+{
+  "$schema": "./openfin.json",
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "ExampleSalesForce",
+    "description": "A SalesForce Sample",
+    "url": "https://johnm-dev-ed.lightning.force.com/lightning/page/home",
+    "uuid": "SalesForceGuide001",
+    "autoShow": true,
+    "frame": false,
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    },
+    "preloadScripts": [
+      {
+        "url": "https://bsdo3.csb.app/salesforce-openfin.js"
+      }
+    ]
+  },
+  "runtime": {
+    "arguments": "--v=1",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "OpenFin",
+    "description": "SalesForce Container",
+    "icon": "https://openfin.github.io/golden-prototype/favicon.ico",
+    "name": "OpenFin SalesForce Example"
+  }
+}

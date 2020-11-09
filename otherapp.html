@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OpenFin SalesForce Sample - Other App</title>
+    <style>
+      body {
+        font-size: 14px;
+        font-family: "Lucida Console", Monaco, monospace;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 15rem;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 0.8rem;
+        line-height: 1.2;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button id="listenToMessages">
+        Start Listening To Messages
+      </button>
+      <button id="sendMessage">Send Message</button>
+    </div>
+    <div id="sendMessageDisplay">
+      <h2>Message To Send:</h2>
+      <textarea name="" id="messageToSend" cols="30" rows="5"></textarea>
+    </div>
+    <div id="receivedMessageDisplay" style="display:none">
+      <h2>Received Message:</h2>
+      <textarea name="" id="receivedMessage" cols="30" rows="5"></textarea>
+    </div>
+    <script src="./otherApp.js"></script>
+  </body>
+</html>
